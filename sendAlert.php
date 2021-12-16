@@ -35,3 +35,4 @@
             sendSmsAlert($number, $message);
         }
     }
+?>
