@@ -2,7 +2,7 @@
     require('twilioConfig.php');
     require('getInfo.php');
 
-	$data = getInfoMultiple();
+    $data = getInfoMultiple();
     $instances = json_decode($data, true);
 
     $sendAlert = false;
@@ -35,4 +35,3 @@
             sendSmsAlert($number, $message);
         }
     }
-?>
