@@ -15,16 +15,16 @@
         }
     }
 
-	function getInfo() {
+    function getInfo() {
         $url = '';
         $response = get('JSON', $url);
 
         // Logic to parse JSON
 
-        return Array();
-	}
+        return array();
+    }
 
-	function getInfoMultiple() {
+    function getInfoMultiple() {
         $instances = [];
 
         foreach ($instances as &$instance) {
@@ -37,5 +37,5 @@
         }
 
         return json_encode($instances);
-	}
+    }
 ?>
